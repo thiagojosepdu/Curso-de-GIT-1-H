@@ -1,7 +1,15 @@
 git config --global user.name "Nome do usuário" -- Configura o usuário
+git config --global user.name "Nome do email" -- Configura o email
 
 git config --global user.name--Confere se deu certo o nome criado
+git config --global user.email--Confere se deu certo o email criado
 
 git init --inicializa um repositório
 
 git remote add origin https://github.com/thiagojosepdu/Curso-de-GIT-1-H.git --vincula uma pasta criada no meu computador com o git hub
+
+git add nomedoarquivo, ex: git add arquivo1.py --isso adiciona um arquivo ao git e a cord muda de vermelho para verde
+
+git push origin master -- enviar as alterações para a branch
+
+git pull orign master -- pega as alterações do repositório, mas no caso da ambev, somente git pull já funciona
