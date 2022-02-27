@@ -27,3 +27,7 @@ git show número do commit, ex: git show 6c095cb4a454616f0243d1484a934b93855485d
 git reset nome do commit. Nesse caso, para desfazer o commit é necessário fazer git reset a7090430f7ed6679feb209b00a25b4fa6c68e9a6. Para pegar esse número é fazer git log.
 
 git checkout nome do arquivo -- ele retira as alterações do add, ex: git checkout Anotacoes.txt
+
+git add . --adiciona todos os arquivos de uma vez
+
+git commit -m--adiciona todos os arquivos de uma vez
