@@ -1,0 +1,7 @@
+git config --global user.name "Nome do usuário" -- Configura o usuário
+
+git config --global user.name--Confere se deu certo o nome criado
+
+git init --inicializa um repositório
+
+git remote add origin https://github.com/thiagojosepdu/Curso-de-GIT-1-H.git --vincula uma pasta criada no meu computador com o git hub
