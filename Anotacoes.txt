@@ -13,3 +13,17 @@ git add nomedoarquivo, ex: git add arquivo1.py --isso adiciona um arquivo ao git
 git push origin master -- enviar as alterações para a branch
 
 git pull orign master -- pega as alterações do repositório, mas no caso da ambev, somente git pull já funciona
+
+git diff -- mostra todas as alterações que foram feitas
+
+git log --mostra quais foram os últimos commit
+
+git shortlog --é uma forma resumida de mostrar os commit, no caso ele aparece o nome do usuário e a quantidade de alterações
+
+clear--limpa a tela
+
+git show número do commit, ex: git show 6c095cb4a454616f0243d1484a934b93855485dd--mostra todas as alterações que tiveram no commit
+
+git reset nome do commit. Nesse caso, para desfazer o commit é necessário fazer git reset a7090430f7ed6679feb209b00a25b4fa6c68e9a6. Para pegar esse número é fazer git log.
+
+git checkout nome do arquivo -- ele retira as alterações do add, ex: git checkout Anotacoes.txt

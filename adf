@@ -1,0 +1,23 @@
+[1mdiff --git a/Anotacoes.txt b/Anotacoes.txt[m
+[1mindex 048ac36..eca91d7 100644[m
+[1m--- a/Anotacoes.txt[m
+[1m+++ b/Anotacoes.txt[m
+[36m@@ -1,7 +1,15 @@[m
+ git config --global user.name "Nome do usuário" -- Configura o usuário[m
+[32m+[m[32mgit config --global user.name "Nome do email" -- Configura o email[m
+ [m
+ git config --global user.name--Confere se deu certo o nome criado[m
+[32m+[m[32mgit config --global user.email--Confere se deu certo o email criado[m
+ [m
+ git init --inicializa um repositório[m
+ [m
+[31m-git remote add origin https://github.com/thiagojosepdu/Curso-de-GIT-1-H.git --vincula uma pasta criada no meu computador com o git hub[m
+\ No newline at end of file[m
+[32m+[m[32mgit remote add origin https://github.com/thiagojosepdu/Curso-de-GIT-1-H.git --vincula uma pasta criada no meu computador com o git hub[m
+[32m+[m
+[32m+[m[32mgit add nomedoarquivo, ex: git add arquivo1.py --isso adiciona um arquivo ao git e a cord muda de vermelho para verde[m
+[32m+[m
+[32m+[m[32mgit push origin master -- enviar as alterações para a branch[m
+[32m+[m
+[32m+[m[32mgit pull orign master -- pega as alterações do repositório, mas no caso da ambev, somente git pull já funciona[m
+\ No newline at end of file[m

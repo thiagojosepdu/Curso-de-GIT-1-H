@@ -1,0 +1,22 @@
+[1mdiff --git a/Anotacoes.txt b/Anotacoes.txt[m
+[1mindex eca91d7..a47f6fd 100644[m
+[1m--- a/Anotacoes.txt[m
+[1m+++ b/Anotacoes.txt[m
+[36m@@ -12,4 +12,14 @@[m [mgit add nomedoarquivo, ex: git add arquivo1.py --isso adiciona um arquivo ao git[m
+ [m
+ git push origin master -- enviar as alterações para a branch[m
+ [m
+[31m-git pull orign master -- pega as alterações do repositório, mas no caso da ambev, somente git pull já funciona[m
+\ No newline at end of file[m
+[32m+[m[32mgit pull orign master -- pega as alterações do repositório, mas no caso da ambev, somente git pull já funciona[m
+[32m+[m
+[32m+[m[32mgit diff -- mostra todas as alterações que foram feitas[m
+[32m+[m
+[32m+[m[32mgit log --mostra quais foram os últimos commit[m
+[32m+[m
+[32m+[m[32mgit shortlog --é uma forma resumida de mostrar os commit, no caso ele aparece o nome do usuário e a quantidade de alterações[m
+[32m+[m
+[32m+[m[32mclear--limpa a tela[m
+[32m+[m
+[32m+[m[32mgit show número do commit, ex: git show 6c095cb4a454616f0243d1484a934b93855485dd--mostra todas as alterações que tiveram no commit[m
+\ No newline at end of file[m
